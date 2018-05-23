@@ -7,6 +7,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
+
 }
 
 /* Menu */
@@ -25,6 +26,8 @@ body {
     overflow: hidden;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
 }
+
+
 
 .topnav a {
     float: right;
@@ -134,9 +137,11 @@ body {
 /* Main */
 
 main {
-    background: linear-gradient(to bottom, rgba(16, 145, 145, 1), rgba(11, 52, 66, 1));
+
     height: 100%;
     width: 100%;
+    background: linear-gradient(rgba(0, 12, 28, 1) 2%, rgba(16, 145, 145, 1)20%, rgba(0, 25, 25, 1));
+
 }
 
 p {
@@ -185,22 +190,34 @@ header {
     /*margin: 10%;*/
 }
 
+#map{
+  width: 500px;
+  height: 500px;
+}
+
 /* FOOTER */
 
 footer {
-    background-image: url(img/seabed.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    background: linear-gradient(rgba(0, 25, 25, 1), rgba(0, 0, 0, 1));
+    
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 input {
     margin: 20px;
     padding: 5px;
     width: 30%;
+}
+
+#map{
+  align-self: flex-end;
+
+}
+
+#form{
+
 }
 
 select {

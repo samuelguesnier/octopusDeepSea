@@ -64,10 +64,11 @@
                 <p>Our last pillar of experience is Accident assistance. In case of an accident, we can do deep sea assistance to find wrecks or specific things like lost freight or wreckage. In most cases, we help airlines or governments find for example flight recorders in wrecks. This is under no circumstances a 24/7 accident assistance. We are helping our clients after the accident, not during it.</p>
             </div>
         </div>
-
+      <hr>
     </main>
 
     <footer>
+      <div id="form">
         <h2>Where are you ?</h2>
 
         <div id="selectionPays"></div>
@@ -85,10 +86,15 @@
         <input type="text" name="FirstName" placeholder="Name">
         <input type="text" name="eMail" placeholder="Email">
         <input type="text" name="Message" placeholder="Message...">
+      </div>
+        <div id="map"></div>
 
     </footer>
 
-    <script src="script.js" type="text/javascript"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3iFqMwymF3YBQGPR7Y91dh37q4GUX6iE&callback=initMap"
+    async defer></script>
+<script src="script.js" type="text/javascript" async defer></script>
 </body>
 
 </html>
