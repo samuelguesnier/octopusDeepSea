@@ -5,6 +5,7 @@
 <head>
     <title>Octopus Deep Sea</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="img/fav.ico" />
 </head>
 
 <body>
@@ -173,8 +174,10 @@ For technical equipment reasons, we are not able to go deeper than 5000 meters b
 
 <footer>
     <div class="blank"></div>
+    <h2 class="center">Contact Us ! </h2>
     <div class="container_row">
     <div class="container_column">
+    <p> Type of demand</p>
     <select>
             <option>General inquiries</option>
             <option>Oil prospection</option>
@@ -183,15 +186,29 @@ For technical equipment reasons, we are not able to go deeper than 5000 meters b
             <option>Boat Assistance</option>
             <option>Help</option>
         </select>
+        <p> Your Name</p>
         <input type="text" name="FirstName" placeholder="Name">
+        <p> E-mail</p>
         <input type="text" name="eMail" placeholder="Email">
+        <p> Message </p>
         <input type="text" name="Message" placeholder="Message...">
+        <input type="submit" value="Submit">
+
         </div>
+
+
     </div>
+
+    <div id="map"></div>
+
+
     
 </footer>
 
 <script type="text/javascript" src="script.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjubgcC3RYI1ynJmPw0ByaBd3zvmgFvd8&callback=initMap">
+    </script>
 </body>
 
 </html>
