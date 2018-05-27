@@ -204,15 +204,21 @@ footer .blank3{
 input {
     margin: 20px;
     padding: 5px;
-    width: 100%;
+    width: 50%;
 }
 
 select {
-    width: 100%;
+    width: 50%;
     margin: 20px;
     padding: 5px;
     background-color: white;
     border: none;
+}
+
+textarea{
+  margin: 20px;
+    padding: 5px;
+    width: 50%;
 }
 
 
@@ -245,6 +251,6 @@ select {
 
 
 #map{
-  height: 200px;
+  height: 300px;
   width: 50%;
 }
