@@ -4,12 +4,17 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
 
   background-color: #f1eef1;
   padding:0;
   margin:0;
+}
+
+header{
+  background :linear-gradient(to bottom,#f05053,#e1eec3);
 }
 main{
   background-color: #46738d;
@@ -18,10 +23,61 @@ svg{
   display: block;
 }
 
-p{
+a{
   font-family: 'Roboto',sans-serif;
 }
 
+h1{
+  font-weight:normal;
+  font-size: 50px;
+  font-family: CS_Juicy_Regular;
+  color: #414a4c;
+  flex-shrink: 0;
+
+}
+
+h2{
+  color: white;
+  font-family: CS_Juicy_Regular;
+  font-size: 35px;
+}
+
+article{
+  font-family: 'Open Sans',sans-serif;
+  font-size: 23px;
+  margin: 5rem;
+  color: white;
+}
+
+
+footer{
+  background: linear-gradient(to bottom, #46738d, #373B44);
+  
+}
+.responsive{
+  width: auto;
+  height: 20rem;
+}
+
+
+
+.container_article{
+  display: flex;
+  margin: 10px;
+
+  
+}
+
+.categories{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.categories h2{
+  border-bottom: 1px solid white;
+}
 
 
 .blank{
@@ -44,11 +100,19 @@ p{
 
 /*Header*/
 
-.menu p {
-  color:#679fb0;
+.menu a {
+  color:#414a4c;
+  text-decoration: none;
   font-size: 30px;
+  border-bottom: 2px solid transparent;
+
+  transition: all .5s ease-in;
 
 }
+
+.menu a:hover{
+   border-bottom: 3px solid #414a4c;;    
+} 
 
 
 #log{
@@ -61,13 +125,7 @@ p{
   text-align: center;
 }
 
-.slogan{
-  font-size: 50px;
-  font-family: CS_Juicy_Regular;
-  color: #009b8b;
-  flex-shrink: 0;
 
-}
 
 
 
