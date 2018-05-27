@@ -131,10 +131,10 @@ footer{
   margin-top: 0;
   /*background: #5f2c82; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #5f2c82, #49a09d); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #46738d, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, #49a09d, #46738d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-footer .blank2{
+footer .blank3{
   width: 100%;
   height: 300px;
   background-color: #46738d;
