@@ -88,6 +88,7 @@
 
  footer {
  	background-color: #373B44;
+	padding:10px;
 
  }
 
@@ -218,13 +219,15 @@
 
  .menu a:hover {
  	border-bottom: 3px solid #414a4c;
- 	;
+ 	
  }
 
 
  #log {
  	align-self: center;
  	border: 1px;
+width:250px;
+padding-top:20px;
 
  }
 
@@ -245,6 +248,7 @@
  .banniere {
  	display: flex;
  	justify-content: center;
+
 
  }
 
