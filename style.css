@@ -95,6 +95,7 @@
  .responsive {
  	width: auto;
  	height: 20rem;
+	box-shadow: 10px 5px 5px #353839;
  }
 
 
@@ -281,8 +282,10 @@ padding-top:20px;
  textarea {
  	margin: 20px;
  	padding: 5px;
- 	width: 60%;
+ 	width: 60% !important;
  }
+
+
 
 
 
@@ -381,7 +384,7 @@ select {
 textarea{
   margin: 20px;
     padding: 5px;
-    width: 50%;
+    width: 50% !important;
 }
 
 
