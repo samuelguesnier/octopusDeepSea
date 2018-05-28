@@ -135,7 +135,7 @@
  	padding-top: 0;
  	margin-top: 0;
  	/*background: #5f2c82; /* fallback for old browsers */
- 	background: -webkit-linear-gradient(to right, #5f2c82, #49a09d);
+ 	background: -webkit-linear-gradient(to bottom, #49a09d, #46738d);
  	/* Chrome 10-25, Safari 5.1-6 */
  	background: linear-gradient(to bottom, #49a09d, #46738d);
  	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -148,7 +148,7 @@
  	padding-top: 0;
  	margin-top: 0;
  	/*background: #5f2c82; /* fallback for old browsers */
- 	background: -webkit-linear-gradient(to right, #5f2c82, #49a09d);
+ 	background: -webkit-linear-gradient(to bottom, #49a09d, #46738d);
  	/* Chrome 10-25, Safari 5.1-6 */
  	background: linear-gradient(to bottom, #49a09d, #46738d);
  	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -327,7 +327,7 @@ flex-wrap:wrap;
  	height: 470px;
  	width: 60%;
 
-
+}
 
 #log{
   align-self: center;
@@ -400,6 +400,15 @@ textarea{
   margin: 1em;
   color: white;
 
+  }
+
+  .menuMobile{
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu{
+    flex-direction: column;
   }
 
 
