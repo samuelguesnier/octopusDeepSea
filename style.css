@@ -239,7 +239,9 @@ padding-top:20px;
 
 
 
-
+img{
+	border-radius:5px;
+}
 
  .menu {
  	display: flex;
