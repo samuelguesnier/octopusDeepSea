@@ -239,9 +239,7 @@ padding-top:20px;
 
 
 
-img{
-	border-radius:5px;
-}
+
 
  .menu {
  	display: flex;
@@ -347,7 +345,7 @@ flex-wrap:wrap;
 
 .menu{
   display: flex;
-  justify-content: space-evenly;
+	justify-content: space-around;
   margin: 2px;
 	flex-wrap:wrap;
 }
